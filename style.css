@@ -89,3 +89,19 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 768px) {
+    .card{
+        padding: 40px 5px;
+    }
+  .search input {
+    margin-right: 0px;
+    padding: 10px 15px;
+  }
+  .search button{
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+}
